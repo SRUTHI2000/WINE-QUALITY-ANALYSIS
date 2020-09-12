@@ -11,3 +11,16 @@ It is very efficient, does not require too many computational resources, it’s 
 Logistic regression does work better when you remove attributes that are unrelated to the output variable as well as attributes that are very similar (correlated) to each other.
 
 Logistic Regression is easy to implement and very efficient to train.
+
+#### ADVANTAGE OF USING RFC
+It is a very efficient algorithm,which can run on huge datasets.
+
+It has methods for balancing error in class population unbalanced data sets.
+
+Also, since we have selected the most important features for the model, it gives a greater accuracy.
+
+#### WHY NAIVE BAYES GAVE A LOWER ACCURACY
+
+"Naive" means independent, which means all the features should be independent of each other, since the algorithm takes only conditional probability. But, in our dataset, we cannot completely assume that all the features are completely mutually independent. Hence, it gave a lower accuracy.
+
+Another reason is, if a categorical variable has a category in the test dataset, which was not observed in training dataset, then the model will assign a zero  probability and will be unable to make a prediction.
